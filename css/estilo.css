@@ -1,0 +1,230 @@
+/*cabeçalho*/
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,500&family=Oswald:wght@700&display=swap');
+
+html {
+    scroll-behavior: smooth;
+}
+
+h2 {
+    font-family: 'Oswald', 'Open Sans', sans-serif;
+}
+
+h3 {
+    font-family: 'Oswald', 'Open Sans', sans-serif;
+    font-size: 1.3em;
+    text-transform: uppercase !important;
+}
+
+h4 {
+    font-family: 'Oswald', 'Open Sans', sans-serif;
+    font-size: 1.3em;
+}
+
+h5 {
+    font-family: 'Oswald', 'Open Sans', sans-serif;
+    font-size: 0.9em;
+}
+
+
+.header-sup {
+    background-color: #919ac6;
+}
+
+.logo-image {
+    width: 100px;
+    height: 100px;
+}
+
+#search {
+    width: 80%;
+    border-radius: 20px;
+}
+
+.nav-sup a {
+    color: #000;
+}
+
+.nav-sup a:hover {
+    color: #fff;
+}
+
+.nav-sup .fa-lg {
+    margin: 0 15px 0 2px;
+}
+
+.fa-2xl {
+    margin: 0 5px 0 2px;
+}
+
+#nav-principal {
+    background-color: #b6bddd;
+}
+
+#nav-principal .col a, 
+   #nav-principal .col nav {
+    color: #000 !important;
+}
+
+#nav-principal .col a:hover, 
+   #nav-principal .col nav:hover {
+    color: #fff !important;
+}
+
+#nav-main .nav-link {
+    color: #fff !important;
+}
+
+i:hover {
+    color: #fff !important;
+}
+
+/*Conteudo principal*/
+
+.card-vendidos {
+    text-decoration: none;
+    color: #000;
+}
+
+.card-vendidos:hover {
+    text-decoration: none;
+    color: #111111;
+}
+
+#section-banners {
+    background-color: #b6bddd;
+}
+
+#section-banners .container .d-flex .card {
+    background-color: transparent;
+    border: none;
+}
+
+#section-procurados {
+    padding: 10px;
+    background-color: #F2F1ED;
+}
+
+.card-img-top {
+    width: 150px;
+    height: 150px;
+}
+
+.img-item {
+    width: 150px;
+    height: 150px;
+}
+
+.link-depart {
+    text-decoration: none;
+} 
+
+.card-img-bottom {
+    width: 200px;
+    height: 200px;
+}
+
+.card-header {
+    background-color: #fff !important;
+    border-bottom: none !important;
+}
+
+.rating {
+    font-size: 0.8em;
+    text-decoration: none;
+    color: #f1f112;
+}
+
+.price {
+    font-family: 'Oswald', 'Open Sans', sans-serif;
+    color: #11237A;
+}
+
+/* Newsletter */
+
+#newsletter {
+    background-color: #b6bddd;
+}
+
+.btn-warning {
+    color: #fff !important;
+    text-transform: uppercase;
+}
+
+/*Rodapé*/
+
+#footer {
+    background-color: #919ac6;
+}
+
+footer ul {
+    list-style: none;
+}
+
+ul li a {
+    text-decoration: none;
+    color: #000;
+}
+
+ul li a:hover {
+    text-decoration: none;
+    color: #fff;
+}
+
+.social-media a {
+    color: #000;
+}
+
+.social-media a:hover {
+    color: #fff;
+}
+
+address {
+    font-family: 'Oswald', 'Open Sans', sans-serif;
+}
+
+#min-footer {
+    margin: 0;
+    padding: 0;
+    background-color: #565b76;
+    font-size: .8em;
+    color: #000000;
+}
+
+/*Botão Voltar topo*/
+
+#voltar-topo {
+    position: fixed;
+    bottom: 35px;
+    right: 50px;
+}
+
+/* página de login  */
+
+
+/* Formulário de cadastro*/
+
+#section-login {
+    margin-top: 10px;
+}
+
+#section-cadastro {
+    padding: 5px;
+    text-align: center;
+    background-color: #fff;
+}
+
+#form-cadastrar {
+    padding: 5px;
+    display: none;
+}
+
+#login {
+    padding: 10px;
+    border: #0e0e0e;
+    border-radius: 10px;
+}
+
+.lembrete {
+    font-size: .8em;
+    text-align: left;
+}

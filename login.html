@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>:: Gaming Zone Store :: Área do Cliente</title>
+
+    <!-- Style -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/estilo.css">
+
+    <!--favicon-->
+    <link rel="icon" type="image/x-icon" href="img/logo.png">
+
+</head>
+
+<body>
+<!--Barra Superior-->
+<div class="header-sup">
+    <div class="container">
+     <div class="row align-items-center">
+     
+      <div class="col col-xl-2">
+        <a class="navbar-brand" href="index.html">
+          <img src="img/logo.png" alt="logo-gaming-zone" title="Gaming Zone Store" class="logo-image img-tumbnail">
+        </a>
+      </div><!--logo-->
+
+      <div class="col">
+        <form>
+          <input type="text" placeholder="Busca..." id="search" class="form-control mx-auto">
+        </form>
+      </div>
+
+        <div class="col col-md-auto">
+          <nav class="nav-sup d-flex align-items-center">
+            <a href="#" title="suporte"><i class="fa-solid fa-headset fa-lg"></i></a>
+            <a href="#" title="favoritos"><i class="fa-solid fa-heart fa-lg"></i></a>
+            <a href="#" title="carrinho"><i class="fa-solid fa-cart-shopping fa-lg"></i></a>
+            <a href="#" title="login"><i class="fa-solid fa-circle-user fa-3x"></i></a>
+          </nav>
+        </div>
+
+      </div><!--row-->
+    </div><!--container-->
+  </div><!--Barra Superior-->
+
+    <header>
+    </header>
+
+    <main>
+        <section id="section-login">
+            <h1 class="text-center text-uppercase"><i class="fa-solid fa-user"></i> Login</h1>
+            <div class="d-flex justify-content-center">
+                <form method="post" action="" id="login" class="row">
+
+                    <div class="col">
+
+                       <p> 
+                         <label for="usuario"></label>
+                         <input id="usuario" name="usuario" required="required" type="text"
+                            placeholder="Email, CPF ou CNPJ" class="form-control" />
+                       </p>
+
+                       <p>
+                        <label for="senha"></label>
+                        <input id="senha" name="senha" required="required" type="password"
+                            placeholder="Senha" class="form-control" />
+                        </p>
+
+                        <p class="d-grid">
+                         <a href="#" class="btn btn-primary" id="bt-login" onclick="login()"><i class="fa-solid fa-right-to-bracket"></i> Login</a>
+                         <a href="#" class="lembrete text-end">Esqueceu a Senha?</a>
+                        </p>
+       
+                    <div id="botao-cadastrar">
+                        <button type="button" class="btn btn-info">Não é cadastrado ainda? Cadastre-se</button>
+                    </div>
+                 </div>
+                </form>
+            </div>
+        </section>
+
+        <section id="section-cadastro">
+            <div id="form-cadastrar">
+
+                <h1 class="text-uppercase"><i class="fa-solid fa-file-user"></i> Criar minha conta</h1>
+                <p>Informe os seus dados abaixo para criar sua conta.</p>
+
+                <div class="d-flex justify-content-center">
+                    <form method="post" action="" id="login" class="row text-start">
+                        <p>
+                            <label for="usuario">Usuário: </label>
+                            <input id="usuario" name="usuario" required="required" type="text"
+                                placeholder="ex. nome de usuário" class="form-control" />
+                        </p>
+                        <p>
+                            <label for="email">E-mail: </label>
+                            <input id="email" name="email" required="required" type="email"
+                                placeholder="seu@email.com.br" class="form-control" />
+                        </p>
+                        <p>
+                            <label for="senha">Senha: </label>
+                            <input id="senha" name="senha" required="required" type="password"
+                                placeholder="mínimo de 6 caracteres" class="form-control" />
+                        </p>
+                        <p class="d-grid">
+                            <a href="#"  class="btn btn-primary" id="bt-cadastrar"
+                                onclick="cadastro()" ><i class="fa-solid fa-circle-plus"></i> Cadastrar</a>
+                        </p>
+                    </form>
+                </div>
+
+            </div>
+        </section>
+    </main>
+
+    <footer id="footer">
+        <div class="container py-4">
+          <div class="row">
+    
+            <div class="col-md-auto">
+              <a class="navbar-brand" href="#">
+                <img src="img/logo.png" alt="logo-gaming-zone" title="gaming-zone" class="logo-image img-tumbnail mx-auto d-block mb-2">
+              </a>
+    
+              <address>
+                <i class="fa-solid fa-location-dot"></i>
+                Av. Gov. Agamenon Magalhães, 153 <br> 
+                Santo Amaro, Recife - PE, 50110-900
+              </address>
+            </div>
+    
+            <!-- 2º coluna footer-->
+            <div class="col">
+              <div class="row row-cols-3">
+                <div class="col">
+                  <h4>Departamentos</h4>
+                  <ul>
+                    <li><a href="#">Consoles</a></li>
+                    <li><a href="#">Jogos</a></li>
+                    <li><a href="#">Action Figures</a></li>
+                    <li><a href="#">Portáteis</a></li>
+                    <li><a href="#">Acessórios</a></li>
+                    <li><a href="#">Simuladores</a></li>
+                  </ul>
+                </div>
+    
+                <div class="col">
+                  <h4>Institucional</h4>
+                  <ul>
+                    <li><a href="#">Sobre Gaming Zone</a></li>
+                    <li><a href="#">Políticas do Sites</a></li>
+                    <li><a href="#">Código Defesa do Consumidor</a></li>
+                    <li><a href="#">Trabalhe Conosco</a></li>
+                  </ul>
+                </div>
+    
+                <div class="col">
+                  <h4>Atendimento</h4>
+                  <ul>
+                    <li class="fw-bold">Horário de Atendimento: </li>
+                    <li>08:00 às 20:00 - Segunda a Sábado</li>
+                    <li><span class="fw-bold">SAC:</span> +55 81 3232-3232</li>
+                    <li><span class="fw-bold">EMAIL:</span> atendimento@gamingzone.com</li>
+                  </ul>
+                </div>
+    
+                <div class="col">
+                  <h4>Minha Conta</h4>
+                  <ul>
+                    <li><a href="#">Meus Pedidos</a></li>
+                    <li><a href="#">Cadastrar ou Remover Newsletter</a></li>
+                  </ul>
+                </div>
+    
+                <div class="col social-media">
+                  <h4>Mídias Sociais</h4>
+                   <a href="#"><i class="fa-brands fa-instagram fa-xl"></i></a>
+                   <a href="#"><i class="fa-brands fa-square-facebook fa-xl"></i></a>
+                   <a href="#"><i class="fa-brands fa-square-twitter fa-xl"></i></a>
+                   <a href="#"><i class="fa-solid fa-square-share-nodes fa-xl"></i></a>
+                </div>
+    
+              </div>
+            </div><!-- 2º coluna do footer -->
+    
+          </div>
+        </div>
+      </footer>
+      <p id="min-footer" class="text-center align-middle py-1">
+        Desenvolvido por <strong>Julio Cézar Martins</strong> &copy; Todos os direitos reservados
+      </p>
+
+
+
+    <button id="voltar-topo" type="button" class="btn btn-outline-danger">&uarr; Voltar ao topo</button>
+
+    <!-- Script Bootstrap-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+    <script src="js/script.js"></script>
+    <!-- Script Jquery-->
+    <script src="https://code.jquery.com/jquery-3.6.1.js" integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI=" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="js/jquery-script.js"></script>
+ </body>
+</html>
